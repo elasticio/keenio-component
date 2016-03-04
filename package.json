@@ -10,7 +10,7 @@
     "url": "git@github.com:elasticio/hello-world-nodejs.git"
   },
   "author": "elastic.io GmbH",
-  "license": "BSD-2-Clause",
+  "license": "APL-2.0",
   "dependencies": {
     "elasticio-node": "0.0.5",
     "elasticio-sailor-nodejs": "1.1.2",
