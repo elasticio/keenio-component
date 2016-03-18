@@ -1,17 +1,39 @@
 # keenio-component
 
-This is an integration component to push arbitrary data to keen.io API. It uses keen-js node.js library inside.
+> Keen.io _component template_ for the [elastic.io platform](http://www.elastic.io "elastic.io platform")
 
-# How to use it
+This is an open source component template for [Keen.io](https://keen.io/) Online Analytics System which is developed specifically to run on [elastic.io platform](http://www.elastic.io "elastic.io platform"). You can clone it and change it as you wish. However, **if you plan to deploy it into [elastic.io platform](http://www.elastic.io "elastic.io platform") you must follow sets of instructions to succseed**. 
 
-Just use it in your integration flow like this
+> **PLEASE NOTE:** This is a working component for **Keen.io**, however, it may not be suitable for every use case. Not all functionalities are included in this component template. **It is your responsibility to add and modify this component to suit your integration needs.** 
 
-![image](https://cloud.githubusercontent.com/assets/56208/13527096/fa98aa32-e20c-11e5-9518-7df9cbcd6424.png)
+## Before you Begin
 
-Configuration is simple, just give it a collection name
+Before you can deploy any code into our system **you must be a registered elastic.io platform user**. Please see our home page at [http://www.elastic.io](http://www.elastic.io) to learn how. 
 
-![image](https://cloud.githubusercontent.com/assets/56208/13527136/36627aa2-e20d-11e5-8c4b-44a3a6069a72.png)
+> Any attempt to deploy a code into our platform without a registration would fail.
 
-Account only requires project ID and write-key:
+After the registration and opening of the account you must **[upload your SSH Key](http://docs.elastic.io/docs/ssh-key)** into our platform. 
 
-![image](https://cloud.githubusercontent.com/assets/56208/13527156/58ea2516-e20d-11e5-80bc-31e5b2ec1c97.png)
+> If you fail to upload you SSH Key you will get **persmission denied** error during the deployment.
+
+## Getting Started
+
+After registration and uploading of your SSH Key you can proceed to deploy it into our system. At this stage we suggest you to:
+* [Create a team](http://docs.elastic.io/docs/teams) to work on your new component. This is not required but will be automatically created using random naming by our system so we suggest you name your team accordingly.
+* [Create a repository](http://docs.elastic.io/docs/component-repositories) where your new component is going to *reside* inside the team that you have just created. For a simplicity you can name your repository **keenio-component** or **keenio**.
+
+```bash
+$ git clone https://github.com/elasticio/keenio-component.git keenio-component
+
+$ cd keenio-component
+```
+Now you can edit your version of **keenio-component** and change according to your needs - that is if you know what you are doing. Or you can just ``PUSH``it into our system to see the process in action:
+
+```bash
+$ git remote add elasticio your-created-team-name@git.elastic.io:keenio-component.git
+
+$ git push elasticio master
+```
+Obviously the naming of your team and repository is entierly upto you and if you do not put any corresponding naming our system will auto generate it for you but the naming might not entierly correspond to your project requirements.
+
+To learn on how to use this component please check our [HOW TO USE](https://github.com/elasticio/keenio-component/blob/master/HOW_TO_USE.md) guide.
