@@ -1,19 +1,23 @@
 {
-  "name": "hello-world",
+  "name": "Keenio component",
   "version": "0.0.3",
-  "description": "elastic.io hello world component",
+  "description": "elastic.io Keenio component",
   "scripts": {
     "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:elasticio/hello-world-nodejs.git"
+    "url": "git@github.com:elasticio/keenio-component.git"
   },
+  "engines": {
+		"node": "^8.4.0",
+		"npm": ">=5.4"
+	},
   "author": "elastic.io GmbH",
   "license": "APL-2.0",
   "dependencies": {
-    "elasticio-node": "0.0.5",
-    "elasticio-sailor-nodejs": "1.1.2",
+    "elasticio-node": "0.0.9",
+    "elasticio-sailor-nodejs": "2.2.1",
     "keen-js": "^3.4.0",
     "q": "^1.4.1"
   }
