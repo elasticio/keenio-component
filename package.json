@@ -17,7 +17,7 @@
   "license": "APL-2.0",
   "dependencies": {
     "elasticio-node": "0.0.8",
-    "elasticio-sailor-nodejs": "2.2.1",
+    "elasticio-sailor-nodejs": "2.1.6",
     "keen-js": "^3.4.0",
     "q": "^1.4.1"
   }
