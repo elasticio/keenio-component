@@ -1,6 +1,6 @@
 {
   "name": "keenio-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "elastic.io Keenio component",
   "scripts": {
     "test": "exit 0"
@@ -10,15 +10,19 @@
     "url": "git@github.com:elasticio/keenio-component.git"
   },
   "engines": {
-		"node": "^8.4.0",
-		"npm": ">=5.4"
-	},
+    "node": "14"
+  },
   "author": "elastic.io GmbH",
   "license": "APL-2.0",
   "dependencies": {
-    "elasticio-node": "0.0.8",
-    "elasticio-sailor-nodejs": "2.1.6",
-    "keen-js": "^3.4.0",
-    "q": "^1.4.1"
+    "elasticio-node": "0.0.9",
+    "elasticio-sailor-nodejs": "2.6.21",
+    "keen-js": "3.5.0",
+    "q": "1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "7.15.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1"
   }
 }
