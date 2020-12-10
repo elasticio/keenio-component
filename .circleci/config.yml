@@ -17,6 +17,9 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - node_modules
+      - run:
+          name: Running Mocha Unit
+          command: npm test
 workflows:
   version: 2
   build_and_test:
