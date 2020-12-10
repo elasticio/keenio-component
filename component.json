@@ -1,8 +1,8 @@
-
 {
     "title": "Keen.io",
     "description": "Keen.io API",
     "docsUrl":"https://github.com/elasticio/keenio-component",
+    "buildType": "docker",
     "credentials": {
         "fields": {
             "projectId": {
@@ -13,7 +13,7 @@
             "writeKey": {
                 "label": "Write Key",
                 "required": true,
-                "viewClass": "TextFieldView"
+                "viewClass": "PasswordFieldView"
             }
         }
     },
