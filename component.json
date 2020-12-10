@@ -13,7 +13,7 @@
             "writeKey": {
                 "label": "Write Key",
                 "required": true,
-                "viewClass": "TextFieldView"
+                "viewClass": "PasswordFieldView"
             }
         }
     },
