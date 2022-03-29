@@ -1,3 +1,5 @@
+![](https://github.com/elasticio/splitter-component/blob/master/elastic.io%20Logo%20pure-01.png)
+
 # keenio-component
 
 > Keen.io _component template_ for the [elastic.io platform](http://www.elastic.io "elastic.io platform"). This component pushes arbitrary data to keen.io API using the keen-js node.js library inside.
