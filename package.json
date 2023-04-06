@@ -1,6 +1,5 @@
 {
   "name": "keenio-component",
-  "version": "0.0.2",
   "description": "elastic.io Keenio component",
   "scripts": {
     "test": "exit 0"
