@@ -1,8 +1,7 @@
 {
     "title": "Keen.io",
     "description": "Keen.io API",
-    "docsUrl":"https://github.com/elasticio/keenio-component",
-    "buildType": "docker",
+    "version": "1.0.0",
     "credentials": {
         "fields": {
             "projectId": {
